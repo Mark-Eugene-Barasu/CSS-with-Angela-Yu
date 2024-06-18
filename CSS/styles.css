@@ -1,3 +1,10 @@
-body {
-    background-color: blue;
+
+/* a beautiful color combination from  ColorHunt*/
+:root {
+    --color1: #26355D;
+    --color2: #AF47D2;
+    --color3: #FF8F00;
+    --color4: #FFDB00;
+
+    /* to use it example => color: var(--color1); */
 }
