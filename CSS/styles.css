@@ -17,7 +17,29 @@ h1 {
     margin-top: 0px;
 }
 
-div {
+.main_container {
+    display: flex;
+}
+.top_container {
     background-color: var(--color1);
     color: #b8cafa;
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    padding: 20px;
 }
+
+.middle_container {
+    width: 200px;
+    height: 200px;
+    background-color: var(--color2);
+    border: 20px solid black;
+}
+
+.bottom_container {
+    width: 200px;
+    height: 200px;
+    background-color: var(--color3);
+    border: 10px solid black;
+}
+
